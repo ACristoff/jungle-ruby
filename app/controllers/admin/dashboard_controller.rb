@@ -7,5 +7,7 @@ class Admin::DashboardController < ApplicationController
   # p ENV
   
   def show
+    @count_products = Product.count
+    @count_categories = Category.count
   end
 end

@@ -1,2 +1,16 @@
 <h1>Admin::Dashboard#show</h1>
 <p>Find me in app/views/admin/dashboard/show.html.erb</p>
+<div class="containers"> 
+  <h1>Statistics:</h1>
+  <div class="panel-group">
+    <div class="panel panel-default">
+      <div class="panel-heading">Total Products</div>
+      <div class="panel-body"><%= @count_products %></div>
+      <div class="panel-footer"><a href="/products">Products Administration Panel</a></div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">Total categories</div>
+      <div class="panel-body"><%=  @count_categories %></div>
+    </div>
+  </div>
+</div>
