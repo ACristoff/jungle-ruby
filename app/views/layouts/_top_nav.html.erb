@@ -39,6 +39,9 @@
           </li>
         <% end %>
         <% if session[:user_id] %>
+          <li id="user_email">
+            <%= User.find(session[:user_id]).email %>
+          <li>
           <li>
             <%= link_to 'Logout', :logout %>
           </li>
