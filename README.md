@@ -2,6 +2,14 @@
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
+## Final Product
+
+!["Screenshot of default view"](https://raw.githubusercontent.com/ACristoff/scheduler/master/docs/scheduler-1.png)
+
+!["Screenshot of a product"](https://raw.githubusercontent.com/ACristoff/scheduler/master/docs/scheduler-2.png)
+
+!["Screenshot of an order"](https://raw.githubusercontent.com/ACristoff/scheduler/master/docs/scheduler-2.png)
+
 ## Additional Steps for Apple M1 Machines
 
 1. Make sure that you are runnning Ruby 2.6.6 (`ruby -v`)
